@@ -19,9 +19,9 @@ Ensure you have the following installed:
 
 ## USE
 docker build -t my-node-app <br>
-docker run -d -p 3000:3000 -e MESSAGE="Hello, Docker!" my-node-app
-docker exec -it  <container_id> /bin/sh
-echo $MESSAGE
+docker run -d -p 3000:3000 -e MESSAGE="Hello, Docker!" my-node-app <br>
+docker exec -it  <container_id> /bin/sh <br>
+echo $MESSAGE <br>
 
 Navigate to <b> http://localhost:3000.</b>
 

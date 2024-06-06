@@ -4,41 +4,28 @@ Code kopieren
 
 This repository contains a simple Node.js application that is containerized using Docker. The application demonstrates basic usage of Docker to create a container running a Node.js server.
 
-## Table of Contents
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Running the Application](#running-the-application)
-- [Environment Variables](#environment-variables)
-- [Docker Commands](#docker-commands)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Prerequisites
 
-Before you begin, ensure you have the following installed on your machine:
+Ensure you have the following installed:
 - [Docker](https://docs.docker.com/get-docker/)
 - [Node.js](https://nodejs.org/en/)
 
 ## Installation
 
 1. Clone the repository:
-
    ```bash
    git clone git@github.com:oTreck/Docker-Simple-Image.git
    cd Docker-Simple-Image
 Install dependencies:
-
 bash
 Code kopieren
 npm install
 Running the Application
 Running Locally
-You can run the Node.js application locally using Node.js:
-
 bash
 Code kopieren
 node app.js
-Then open your browser and navigate to http://localhost:3000 to see the application running.
+Navigate to http://localhost:3000.
 
 Running with Docker
 Build the Docker image:
@@ -51,17 +38,15 @@ Run the Docker container:
 bash
 Code kopieren
 docker run -d -p 3000:3000 -e MESSAGE="Hello, Docker!" my-node-app
-Open your browser and navigate to http://localhost:3000 to see the application running inside the Docker container.
+Navigate to http://localhost:3000.
 
 Environment Variables
-The application uses an environment variable MESSAGE to display a custom message. You can set this variable when running the Docker container using the -e flag:
+Set a custom message:
 
 bash
 Code kopieren
 docker run -d -p 3000:3000 -e MESSAGE="Your custom message" my-node-app
 Docker Commands
-Here are some useful Docker commands for managing the application:
-
 Build the Docker image:
 
 bash
@@ -87,18 +72,14 @@ View logs of a container:
 bash
 Code kopieren
 docker logs <container_id>
-Contributing
-Contributions are welcome! Please open an issue or submit a pull request for any improvements or suggestions.
-
 License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License.
 
-sql
+go
 Code kopieren
 
-Kopiere diesen Text und füge ihn in eine Datei namens `README.md` in deinem GitHub-Repository ein. Danach kannst du diese Datei committen und pushen:
+Du kannst diesen Text direkt in eine Datei namens `README.md` in deinem Repository kopieren und pushen.
 
-```bash
-git add README.md
-git commit -m "Add README documentation"
-git push
+
+
+

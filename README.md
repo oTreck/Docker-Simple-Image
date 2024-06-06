@@ -17,18 +17,15 @@ Ensure you have the following installed:
    git clone git@github.com:oTreck/Docker-Simple-Image.git
    cd Docker-Simple-Image
 
-## Installation
+## USE
 docker build -t my-node-app <br>
 docker run -d -p 3000:3000 -e MESSAGE="Hello, Docker!" my-node-app
-
+docker exec -it  <container_id> /bin/sh
+echo $MESSAGE
 
 Navigate to <b> http://localhost:3000.</b>
 
-##  Docker Commands
-docker build -t my-node-app .
-docker run -d -p 3000:3000 -e MESSAGE="Hello, Docker!" my-node-app
-docker ps
-docker stop <container_id>
+
 
 ##  License
 This project is licensed under the MIT License.

@@ -18,7 +18,7 @@ Ensure you have the following installed:
    cd Docker-Simple-Image
 
 ## Installation
-docker build -t my-node-app .
+docker build -t my-node-app <br>
 docker run -d -p 3000:3000 -e MESSAGE="Hello, Docker!" my-node-app
 
 
